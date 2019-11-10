@@ -28,3 +28,8 @@ app.use((err, req, res, next) => {
     res.status(err.status);
     res.render('error');
 });
+
+// Server Start (listening on port 3000)
+app.listen(3000, () => {
+    console.log('The application is running on localhost:3000!')
+});
