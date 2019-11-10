@@ -1,19 +1,15 @@
 {
   "name": "techdegree-project-6",
   "version": "1.0.0",
-  "description": "Portfolio Website",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Chagorovski/TechDegree-Project-6.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/Chagorovski/TechDegree-Project-6#readme",
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^2.0.4"
