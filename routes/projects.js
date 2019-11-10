@@ -12,7 +12,7 @@ router.get('/:id' , (req, res) => {
 
     let project = '';
     for (let data of projects) {
-        if(id === data.id) {
+        if (id === data.id) {
             project = data;
         }
     }
