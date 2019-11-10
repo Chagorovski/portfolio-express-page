@@ -1,7 +1,7 @@
 const express = require('express');
-      homeRoute = require('./routes');
-      about = require('./routes/about');
-      projects = require('./routes/projects');  
+const homeRoute = require('./routes');
+const about = require('./routes/about');
+const projects = require('./routes/projects');  
 
 const app = express();
 

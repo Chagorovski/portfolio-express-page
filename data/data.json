@@ -7,8 +7,8 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link ": "https://chagorovski.github.io/TechDegree-Project-1/",
         "github_link": "https://github.com/Chagorovski/TechDegree-Project-1",
-        "image_urls" : ["/static/images/rsz_quoteGenerator1200.jpg","../images/rsz_quoteGenerator1202.jpg"],
-        "main_img" : "/static/images/rsz_quoteGenerator550.jpg"
+        "image_urls" : ["/images/rsz_quoteGenerator1200.jpg","/images/rsz_quoteGenerator1202.jpg"],
+        "main_img" : "/images/rsz_quoteGenerator550.jpg"
       },
       {
         "id": 1,
@@ -17,8 +17,8 @@
         "technologies": ["HTML","CSS","JavaScript"],
         "live_link ": "https://chagorovski.github.io/Techdegree-project-2/",
         "github_link": "https://github.com/Chagorovski/Techdegree-project-2",
-        "image_urls" : ["/static/images/rsz_listPagination1200.jpg","../images/rsz_listPagination1201.jpg"],
-        "main_img" : "/static/images/rsz_listPagination550.jpg"
+        "image_urls" : ["/images/rsz_listPagination1200.jpg","/images/rsz_listPagination1201.jpg"],
+        "main_img" : "/images/rsz_listPagination550.jpg"
       },
       {
         "id": 2,
@@ -27,8 +27,8 @@
         "technologies": ["HTML","CSS","jQuery","JavaScript"],
         "live_link ": "https://chagorovski.github.io/TechDegree-Project-3/",
         "github_link": "https://github.com/Chagorovski/TechDegree-Project-3",
-        "image_urls" : ["/static/images/rsz_form1200.jpg","../images/rsz_form1201.jpg"],
-        "main_img" : "/static/images/rsz_form550.jpg"
+        "image_urls" : ["/images/rsz_form1200.jpg","/images/rsz_form1201.jpg"],
+        "main_img" : "/images/rsz_form550.jpg"
         
       },
       {
@@ -38,8 +38,8 @@
         "technologies": ["HTML","CSS","JavaScript","OOP"],
         "live_link ": "https://chagorovski.github.io/Techdegree-project-4/",
         "github_link": "https://github.com/Chagorovski/Techdegree-project-4",
-        "image_urls" : ["/static/images/rsz_phrase1200.jpg","../images/rsz_phrase1201.jpg"],
-        "main_img" : "/static/images/rsz_phrase550.jpg"
+        "image_urls" : ["/images/rsz_phrase1200.jpg","/images/rsz_phrase1201.jpg"],
+        "main_img" : "/images/rsz_phrase550.jpg"
       },
       {
         "id": 4,
@@ -48,8 +48,8 @@
         "technologies": ["HTML", "CSS", "JavaScript", "Fetch API"],
         "live_link ": "https://chagorovski.github.io/Techdegree-Project-5/",
         "github_link": "https://github.com/Chagorovski/Techdegree-Project-5",
-        "image_urls" : ["/static/images/rsz_api1200.jpg","../images/rsz_api1201.jpg"],
-        "main_img" : "/static/images/rsz_api550.jpg"
+        "image_urls" : ["/images/rsz_api1200.jpg","/images/rsz_api1201.jpg"],
+        "main_img" : "/images/rsz_api550.jpg"
       }
     ]
   }
