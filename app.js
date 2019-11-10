@@ -16,7 +16,7 @@ app.use(homeRoute);
 app.use('/about', about);
 app.use('/project', projects);
 
-// Middleware for Errors
+// Middleware for Handle errors
 app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
