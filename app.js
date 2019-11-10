@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const homeRoute = require('./routes');
 const about = require('./routes/about');
 const projects = require('./routes/projects');  
