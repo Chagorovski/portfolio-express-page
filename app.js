@@ -11,4 +11,7 @@ app.set('view engine', 'pug');
 // Static method 
 app.use('/static', express.static('public'));
 
+// Mounting the middlewares
 app.use(homeRoute);
+app.use('/about', about);
+app.use('/project', projects);
