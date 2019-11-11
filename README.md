@@ -21,7 +21,7 @@ This is my portfolio website built with Express. It displays a list of projects 
   box-shadow: none !important;
 }
 ```
-- adde box shadow
+- added box shadow
 ```css
 .thumbnail {
   display: inline-block;
