@@ -7,19 +7,20 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        h1 #{project.project_name}
+        h1 #{project[id].project_name}
 
         p.lead.text-light
-          | #{project.description}
+          | #{project[id].description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        each technology in project.technologies
+        each technology in project[id].technologies
+          ul
             li= technology
 
-        a.button.expanded(href=`${project.live_link}` target='_blank') Live Demo
-        a.button.expanded(href=`${project.github_link}` target='_blank') GitHub Repo
+        a.button.expanded(href=`${project[id].live_link}` target='_blank') Live Demo
+        a.button.expanded(href=`${project[id].github_link}` target='_blank') GitHub Repo
     
     each image in project.image_urls
         img.image(src=`${image}`)

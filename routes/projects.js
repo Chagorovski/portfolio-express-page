@@ -10,14 +10,7 @@ router.get('/:id' , (req, res) => {
         res.redirect('../error');
     }
 
-    let project = '';
-    for (let data of projects) {
-        if (id === data.id) {
-            project = data;
-        }
-    }
-
-    res.render('./project', { project });
+    res.render('./project', { project, id });
 });
 
 module.exports = router;
