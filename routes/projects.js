@@ -1,16 +1,21 @@
 const express = require('express');
 const router = express.Router();
-const { projects } = require('../data/data.json');
+const data = require('../data/data.json');
+const projects = data.projects;
 
-router.get('/:id' , (req, res) => {
+//redirects to the first project page if someone trys to go to the projects url without an id entered
+router.get('/', (req, res) => {
+    res.redirect(`/projects/0`);
+});
 
-    id = req.params.id;
+//dynamically renders a project page based on the id of the project
+router.get('/:id', (req, res) => {
+    const id = parseFloat(req.params.id);
+    const project = projects[id]
+    const techs = project.technologies;
+    const imgs = project.image_urls;
 
-    if (id > projects.length) {
-        res.redirect('../error');
-    }
-
-    res.render('./project', { project, id });
+    res.render('project', { projects, project, techs, imgs });
 });
 
 module.exports = router;
