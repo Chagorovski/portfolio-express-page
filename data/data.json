@@ -5,8 +5,8 @@
         "project_name": "Random-Quote-Generator",
         "description": "Automaticly generates quote on the screen after some time",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://chagorovski.github.io/TechDegree-Project-1/",
-        "github_link": "https://github.com/Chagorovski/TechDegree-Project-1",
+        "live_link": "https://chagorovski.github.io/random-quotes-generator/",
+        "github_link": "https://github.com/Chagorovski/random-quotes-generator",
         "image_urls" : ["/static/images/rsz_quoteGenerator1200.jpg","/static/images/rsz_quoteGenerator1202.jpg"],
         "main_img" : "/static/images/rsz_quoteGenerator550.jpg"
       },
