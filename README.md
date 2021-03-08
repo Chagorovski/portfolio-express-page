@@ -1,5 +1,5 @@
 ## Portfolio page
-![portfolio-gif](https://icecube-eu-291.icedrive.io/download?p=koZXtprsdirUbD3qXk2K4cVwmFLO1Z66A1oQ8HN5F2yYfgjyNB.np79RjgYh.3q1NCyjzmHbFnmOv0sgHTrEWzMGiJBX1MD6TFwApKID52Q4Xhn5psdxKpK35uUfnyob4QM_7YPOd8p7ciB2mV8m4JKlk2PgIPXjQa_R9sTosJhTJ.oGBzhexARmQgVdsxo4OR0W8VAedYT8y8JxymCAqg--)
+![portfolio-gif](./data/portfolio-gif.gif)
 
 ## Technologies Used
 ---
