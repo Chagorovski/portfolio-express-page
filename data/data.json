@@ -15,8 +15,8 @@
         "project_name": "List Pagination and Filtering",
         "description": "This application is designed to display a list of items displayed to multiple pages",
         "technologies": ["HTML","CSS","JavaScript"],
-        "live_link": "https://chagorovski.github.io/Techdegree-project-2/",
-        "github_link": "https://github.com/Chagorovski/Techdegree-project-2",
+        "live_link": "https://chagorovski.github.io/employee-list/",
+        "github_link": "https://github.com/Chagorovski/employee-list",
         "image_urls" : ["/static/images/rsz_listPagination1200.jpg","/static/images/rsz_listPagination1201.jpg"],
         "main_img" : "/static/images/rsz_listPagination550.jpg"
       },
@@ -25,8 +25,8 @@
         "project_name": "Interactive From",
         "description": "This project contains a form for registering at Full Stack Conference.",
         "technologies": ["HTML","CSS","jQuery","JavaScript"],
-        "live_link": "https://chagorovski.github.io/TechDegree-Project-3/",
-        "github_link": "https://github.com/Chagorovski/TechDegree-Project-3",
+        "live_link": "https://chagorovski.github.io/interactive-form/",
+        "github_link": "https://github.com/Chagorovski/interactive-form",
         "image_urls" : ["/static/images/rsz_form1200.jpg","/static/images/rsz_form1201.jpg"],
         "main_img" : "/static/images/rsz_form550.jpg"
         
@@ -36,8 +36,8 @@
         "project_name": "Phrase-Hunter-OOP",
         "description": "Words guessing game. Player has five times to guess the phrase.",
         "technologies": ["HTML","CSS","JavaScript","OOP"],
-        "live_link": "https://chagorovski.github.io/Techdegree-project-4/",
-        "github_link": "https://github.com/Chagorovski/Techdegree-project-4",
+        "live_link": "https://chagorovski.github.io/phrase-hunter-oop/",
+        "github_link": "https://github.com/Chagorovski/phrase-hunter-oop",
         "image_urls" : ["/static/images/rsz_phrase1200.jpg","/static/images/rsz_phrase1201.jpg"],
         "main_img" : "/static/images/rsz_phrase550.jpg"
       },
@@ -46,10 +46,20 @@
         "project_name": "Publick API Request",
         "description": "Requesting API and randomly displaying employees information. For better UX search-bar is added at the top",
         "technologies": ["HTML", "CSS", "JavaScript", "Fetch API"],
-        "live_link": "https://chagorovski.github.io/Techdegree-Project-5/",
-        "github_link": "https://github.com/Chagorovski/Techdegree-Project-5",
+        "live_link": "https://chagorovski.github.io/random-user-generator/",
+        "github_link": "https://github.com/Chagorovski/random-user-generator",
         "image_urls" : ["/static/images/rsz_api1200.jpg","/static/images/rsz_api1201.jpg"],
         "main_img" : "/static/images/rsz_api550.jpg"
+      },
+      {
+        "id": 5,
+        "project_name": "React live gallery",
+        "description": "Fetching Flicker API to display live gallery of searched images",
+        "technologies": ["JSX", "React", "React Router", "Axios fetch API"],
+        "live_link": "",
+        "github_link": "https://github.com/Chagorovski/react-live-gallery",
+        "image_urls" : ["/static/images/react-gallery-project.jpg"],
+        "main_img" : "/static/images/react-gallery-main.jpg"
       }
     ]
   }
